@@ -41,17 +41,18 @@ conda env create -f genai_review.yml
 conda activate genai_review
 ```
 
-### 2. Add your own API key and set as environment variable
+### 3. Add your own API key and set as environment variable
 ```bash
 export OPENAI_API_KEY=your_api_key_here
 
 #The script will load the API key from this file automatically when you run it.
 ```
 
-### Start Jupyter Notebook by running the following command:
+### 4. Start Jupyter Notebook by running the following command:
    ```bash
    jupyter notebook
    ```
+### 5. Run the notebook located within 'Gen AI notebook'
 
 ## Acknowledgments
 Special thanks to my hackathon team: fellow Data Scientist, UX designers, software engineers, and cybersecurity team members who contributed to the project, and developed a working prototype within the 24-hours.
